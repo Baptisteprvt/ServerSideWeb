@@ -1,0 +1,202 @@
+*{
+    left: 0;
+}
+body {
+    margin: 0;
+    background: linear-gradient(#969696, #000000);
+}
+test{
+    color: white;
+    text-align: right;
+
+}
+h2 {
+    color: white;
+    text-align: left;
+}h3 {
+    color: white;
+    text-align: left;
+}
+.errormessage
+{
+    color: pink;
+    text-align: center;
+}
+#OUI
+{
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+#Non {
+    margin-left: 80px;
+	max-width: 10%;
+	height: auto;
+}
+#Navbar
+{
+    left: 0;
+}
+#cookie
+{
+     text-align: right;
+    font-size: small;
+}
+#links
+{
+    margin-left: 15px;
+}
+#img
+{
+    margin-left: 80px;
+	max-width: 15%;
+	height: auto;
+}
+#insta
+{
+	max-width: 20%;
+	height: auto;
+}
+#social
+{
+	font-size: 30px;
+}
+#facebook
+{
+	max-width: 20%;
+	height: auto;
+}
+#home
+{
+	max-width: 20%;
+	height: auto;
+}
+#testt
+{
+    display: block;
+	float: left;
+}
+#map
+{
+    display: block;
+	float: right;
+	max-width: 40%;
+	height: auto;
+}
+
+#youtube
+{
+	max-width: 20%;
+	height: auto;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #6e6e6e;
+    padding: 20px;
+  }
+
+  #mycontacts
+  {
+    text-align: center;
+    font-size:20px;
+  }
+  #footer
+  {
+      font-size: 20px;
+  }
+  #about
+  {
+      margin-left: 5%;
+  }
+
+  #gg{
+      text-align: center;
+      font-size: 20;
+  }
+
+#snackbar {
+    visibility: hidden; 
+    min-width: 250px; 
+    margin-left: -125px; 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 50%; 
+    bottom: 30px; 
+  }
+  
+ 
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+  #showcookie
+  {
+      display: flex;
+      position: relative;
+      margin-left: 0;
+  }
+  
+  #showcookie 
+    {
+      background-image: linear-gradient(to right, #1e130c 0%, #9a8478  51%, #1e130c  100%)
+    }
+  #showcookie {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   #showcookie:hover {
+     background-position: right center;
+     color: #fff;
+     text-decoration: none;
+   }
+  

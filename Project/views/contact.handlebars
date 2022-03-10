@@ -1,0 +1,36 @@
+<h2>
+  <ul id="gg">Hey, here you can find my contacts but please don't send me too much messages :<br>
+    {{> news }}
+    <br>
+    Send me an email : <a
+      href="mailto:s00229555@mail.itsligo.ie?subject=ContactWebsite&cc=exemple@exemple.com&body=Lord Baptiste,">Contact
+      me</a>
+  </ul>
+  <div class="container">
+    <form action="/submit">
+
+      <label>First Name</label>
+      <input type="text" id="fname" placeholder="Your name..">
+
+      <label>Last Name</label>
+      <input type="text" id="lname" placeholder="Your last name..">
+
+      <label>Country</label>
+      <select id="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="France">France</option>
+        <option value="Irlande">Irlande</option>
+        <option value="Uk">UK</option>
+        <option value="Zimbabwe">Zimbabwe</option>
+
+      </select>
+
+      <label>Subject</label>
+      <textarea id="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <button type=submit class="btn btn-primary">Submit</button>
+
+    </form>
+  </div>
+</h2>

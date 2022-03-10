@@ -1,0 +1,22 @@
+
+<br>
+<h3 id="links">
+	{{> legal}}
+	<br>
+	{{> links data=links}}
+	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias numquam cupiditate harum dignissimos quam
+	repellendus a deleniti id eaque dolor ad, quasi commodi impedit sint mollitia facilis modi tempore labore.
+</h3>
+{{#if message}}
+<button id="showcookie" onclick="myFunction()">Show Cookie</button>
+
+<div id="snackbar">{{message}}</div>
+<script>
+	function myFunction() {
+		
+		var x = document.getElementById("snackbar");
+		x.className = "show";
+		setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+	}
+</script>
+{{/if}}
