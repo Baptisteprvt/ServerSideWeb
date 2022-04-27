@@ -211,3 +211,41 @@ a:visited {
   color: rgb(0, 0, 0);
 }
   
+#Edit
+  {
+    border-radius: 5px;
+    background-color: #6e6e6e;
+    padding: 20px;
+    width: 20%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+    margin-left: 2%;
+  }
+  #Delete
+  {
+    border-radius: 5px;
+    background-color: #6e6e6e;
+    padding: 20px;
+    width: 20%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+    margin-left: 2%;
+  }
+  #Delete:hover {
+    background-color:#b10000;
+    transition: 0.7s;
+}
+#Edit:hover {
+  background-color:#1700c8;
+  transition: 0.7s;
+}
