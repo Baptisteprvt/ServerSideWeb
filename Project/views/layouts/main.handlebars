@@ -24,7 +24,7 @@
 <body>
   <header>
     <a href="/">
-      <img src="/images/logo.png" alt="A lovely logo" id="OUI"></img>
+      <img src="/images/logo.png" alt="A lovely logo" id="logo"></img>
     </a>
   </header>
 
@@ -55,15 +55,12 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                {{#each listing}}
               <li>
-
-                <a class="dropdown-item" href="/staff/{{this.name}}">
-                  {{this.name}}
+                <a class="dropdown-item" href="/family">
+                  Family
                 </a>
               </li>
-              {{/each}}
-              <a class="dropdown-item" href="/staff/addnew">
+              <a class="dropdown-item" href="/family/addnew">
                 Add new
               </a>
           </li>
@@ -95,7 +92,7 @@
             <div data-v-4d890c40="" class="bottom-title" id="social">
               Home
             </div>
-            <a data-v-4d890c40="" rel="noreferrer" href="/"  class="button">
+            <a data-v-4d890c40="" rel="noreferrer" href="/" class="button">
               <figure data-v-4d890c40=""></figure> <img data-v-4d890c40="" src="/images/home.png" id="home" alt="Home"
                 class="social-icon">
             </a> <br>
@@ -119,8 +116,8 @@
           </ul>
       </div>
       <iframe id="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.022283043798!2d5.851957616180322!3d45.610196179103056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b0871c90e72d7%3A0x538110e8827d8d82!2s776%20Chem.%20du%20Noiray-Dessous%2C%2073290%20La%20Motte-Servolex%2C%20France!5e0!3m2!1sfr!2sie!4v1646845371114!5m2!1sfr!2sie"
-              allowfullscreen="" loading="lazy"></iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.022283043798!2d5.851957616180322!3d45.610196179103056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b0871c90e72d7%3A0x538110e8827d8d82!2s776%20Chem.%20du%20Noiray-Dessous%2C%2073290%20La%20Motte-Servolex%2C%20France!5e0!3m2!1sfr!2sie!4v1646845371114!5m2!1sfr!2sie"
+        allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
 </footer>

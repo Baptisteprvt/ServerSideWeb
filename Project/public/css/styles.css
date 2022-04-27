@@ -22,13 +22,14 @@ h2 {
     color: pink;
     text-align: center;
 }
-#OUI
+#logo
 {
     text-align: center;
     margin: auto;
     display: flex;
+    max-width: 18%;
 }
-#Non {
+#photo {
     margin-left: 80px;
 	max-width: 10%;
 	height: auto;
@@ -123,7 +124,7 @@ input[type=text], select, textarea {
       margin-left: 5%;
   }
 
-  #gg{
+  #news{
       text-align: center;
       font-size: 20;
   }
@@ -199,4 +200,14 @@ input[type=text], select, textarea {
      color: #fff;
      text-decoration: none;
    }
+
+   #Listing{
+    font-size: 20;
+}
+a:link {
+  color: rgb(0, 0, 0);
+}
+a:visited {
+  color: rgb(0, 0, 0);
+}
   
